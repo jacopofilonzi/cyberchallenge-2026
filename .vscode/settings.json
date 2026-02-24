@@ -2,7 +2,7 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
-    "nw-intro*.md": "nw-intro$(capture).pcap, nw-intro$(capture).pcapng",
-    "web*.md": "web$(capture).challenge.py, web$(capture).solution.py, web$(capture).html",
+    "nw-intro*.md": "nw-intro$(capture).*",
+    "web*.md": "web$(capture)*",
   }
 }
