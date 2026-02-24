@@ -1,0 +1,8 @@
+{
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "web*.md": "web$(capture).challenge.py, web$(capture).solution.py",
+    "nw-intro*.md": "nw-intro$(capture).pcap, nw-intro$(capture).pcapng"
+  }
+}
