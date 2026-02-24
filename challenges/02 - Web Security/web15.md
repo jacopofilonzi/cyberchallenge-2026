@@ -1,0 +1,5 @@
+# Web 15 - Tecnologie web: risorse esterne
+
+Una pagina web può contenere riferimenti ad altre risorse, dette esterne, che vanno ad aumentarla in termini di funzionalità, stile, disponibilità di font ed altro ancora. I due principali meccanismi per l'inclusione di queste risorse sono i tag <link>, che specificano il tipo di relazione con la risorsa esterna nell'attributo rel (tipicamente stylesheet o alternate stylesheet) e l'indirizzo della risorsa in href, e i tag <script>, che oltre a contenere direttamente uno spezzone di codice possono linkare a script esterni tramite l'attributo src.
+
+In questa challenge la flag è in una delle risorse esterne della pagina accessibile all'indirizzo http://web-15.challs.olicyber.it/. L'obiettivo è utilizzare find_all e gli altri strumenti messi a disposizione da BeautifulSoup per costruire un elenco delle risorse esterne della pagina, si consiglia quindi di utilizzare la funzione get per scaricarle e di eseguirvi all'interno una ricerca testuale per la stringa flag{
