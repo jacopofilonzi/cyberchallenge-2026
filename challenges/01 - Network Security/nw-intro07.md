@@ -1,0 +1,7 @@
+# Network 07 - Stream TCP
+
+Questa challenge si focalizza sulle conversazioni TCP [(TCP Streams)](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html).
+
+La flag è divisa carattere per carattere in diversi pacchetti TCP appartenenti alla stessa sessione.
+
+Poiché il file pcap è di grandi dimensioni e contiene anche molti pacchetti ICMP sparsi, la soluzione più efficiente è quella di filtrare la sessione di nostro interesse e visualizzarla per intero.

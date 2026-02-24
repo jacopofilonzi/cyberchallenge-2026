@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "d1dbaf32af16731f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b170ab7504e41c6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd8ded020e45af6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Web Security/CURL DATASHEET.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CURL DATASHEET"
+            }
+          },
+          {
+            "id": "2217ac8f0f269825",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "REGEX.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "REGEX"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2caf2e61867c7251",
+    "type": "split",
+    "children": [
+      {
+        "id": "75195343b6446ecd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a79de84906508832",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "29f7fa989862dbfa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9e5e0183dc0efb66",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "11e3b310d5b8d22e",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ead393aca7aef7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ebd122a99039509",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "REGEX.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for REGEX"
+            }
+          },
+          {
+            "id": "87bc1861e0831f06",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "REGEX.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from REGEX"
+            }
+          },
+          {
+            "id": "cb8696660a4cda91",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9bd78476235f47a3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d0a1ab23d6439300",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "REGEX.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of REGEX"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2217ac8f0f269825",
+  "lastOpenFiles": [
+    "2 - Web Security/CURL DATASHEET.md",
+    "REGEX.md",
+    "1 - Network Security/Wireshark/TLS.md",
+    "2 - Web Security/curl/Untitled",
+    "2 - Web Security/curl",
+    "2 - Web Security",
+    "1 - Network Security/Wireshark/Magic bytes.md",
+    "1 - Network Security/Wireshark/Filtering.md",
+    "1 - Network Security/Wireshark",
+    "1 - Network Security"
+  ]
+}

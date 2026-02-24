@@ -1,0 +1,7 @@
+# Network 09 - Decifrare traffico TLS
+
+Per risolvere questa challenge sarà necessario decifrare il traffico TLS utilizzando il file contenente il log delle chiavi utilizzate.
+
+Una volta decifrato con successo il traffico, Wireshark riconoscerà automaticamente il contenuto dei pacchetti criptati.
+
+La flag si trova nell'header della richiesta GET a https://olicyber.it/.

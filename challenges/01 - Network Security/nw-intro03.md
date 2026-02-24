@@ -1,0 +1,7 @@
+# Network 03 - Filtri 1
+
+Questa è la prima di una serie di challenge che affronteranno l'utilizzo di espressioni per filtrare file pcap/pcapng, al fine di ottenere un insieme di pacchetti ridotto e di maggiore interesse.
+
+Per ottenere la flag di questa prima challenge è sufficiente filtrare i pacchetti in base al protocollo, in particolare filtrando solo i pacchetti che utilizzano il protocollo HTTP si troverà la flag in un header personalizzato della richiesta.
+
+Per imparare al meglio come risolvere questa serie di challenge è consigliato leggere la [documentazione relativa](https://www.wireshark.org/docs/wsug_html_chunked/ChWorkDisplayFilterSection.html) di Wireshark riguardo ai filtri.

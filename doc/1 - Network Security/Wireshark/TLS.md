@@ -1,0 +1,1 @@
+Se si ha un dump con crittografia TLS e si ha il file di chiave privata, per inserirlo si va in `edit > preferences > protocol > TLS` e si inserisce il percorso del file nel campo `(Pre)-Master-Seecret log filename`
