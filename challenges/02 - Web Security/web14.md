@@ -1,0 +1,5 @@
+# Web 14 - Tecnologie web: estrarre commenti da una pagina web
+
+I documenti HTML possono contenere dei commenti. Questi vengono completamente ignorati dal browser e non partecipano alla costruzione del contenuto della pagina ma talvolta, per una disattenzione dell'autore, possono contenere informazioni interessanti e potenzialmente sensibili.
+
+La flag di questa challenge è in un commento della pagina web accessibile tramite l'indirizzo http://web-14.challs.olicyber.it/. L'obiettivo è estrarre e visualizzare i commenti contenuti nella pagina. Proprio come il browser, anche BeautifulSoup tende a mettere il contenuto dei commenti in secondo piano, non fornendo strumenti diretti di accesso ad essi. Si consiglia di utilizzare il parametro [string](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-string-argument) del metodo find_all con un [test personalizzato](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-function) che verifichi se l'elemento analizzato sia un'istanza della classe [Comment](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#comments-and-other-special-strings)
