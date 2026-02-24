@@ -1,0 +1,22 @@
+- **`-H "<name: value>"`** --- Definisci un header da attribuire alla richiesta.
+  Known headers:
+	- **User-Agent:** Tipo di browser/client utilizzato
+	- **Accept:** Formato in cui si preferiscono i dati (comma-space separated)
+- **`-b "<name>=<value>"`** --- Definisci un cookie (*b*iscuit)
+-  **`-v`** --- verbose, mostra l'intera conversazione http
+- **`-X <method>`** --- Invia una richiesta con uno dei seguenti metodi:
+	- **GET**: Il metodo predefinito. Richiede una risorsa dal server.
+	- **POST**: Invia dati al server (es. un modulo o un JSON) per creare una nuova risorsa.
+	- **PUT**: Carica una risorsa o sostituisce completamente quella esistente all'URL specificato.
+	- **DELETE**: Rimuove la risorsa specificata dal server.
+	- **PATCH**: Applica modifiche parziali a una risorsa esistente.
+	- **HEAD**: Identico a GET, ma chiede al server di restituire solo gli **header** (intestazioni) senza il corpo della risposta. **NB:** *utilizza invece la flag `-I`*
+	- **OPTIONS**: Restituisce i metodi HTTP supportati dal server per un determinato URL.
+	- **TRACE**: Esegue un test di loop-back lungo il percorso verso la risorsa (utile per debug).
+	- **CONNECT**: Utilizzato principalmente per stabilire un tunnel attraverso un proxy (es. per SSL/TLS)
+- **`-I`** --- Invia una richiesta con metodo HEAD
+- **`-d "<data>"`** --- Invia dati con encoding form, se il contenuto è un json puoi usare in accoppiata `-H "Content-Type: application/json"` che da la possibilità di definire una struttura diversa da chiave-valore
+   formati supportati:
+	- JSON -> ''{"id": 1, "status": "ok"}'
+	- &        -> "id=1&status=ok"
+	- File     -> @dati.json
