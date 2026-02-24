@@ -1,0 +1,5 @@
+# Web 02 - HTTP: richiesta GET con query string
+
+La richiesta di alcune risorse può essere parametrizzata, per ottenere particolari versioni della risorsa in questione. Ad esempio, un blog potrebbe utilizzare un'unica risorsa per rappresentare tutti i post pubblicati (che sono strutturalmente tutti uguali, differendo solo per il contenuto) identificando il contenuto specifico desiderato tramite un parametro numerico id.
+
+L'obiettivo di questa challenge è ottenere la risorsa http://web-02.challs.olicyber.it/server-records specificando il parametro id con il valore flag. Si consiglia di utilizzare [la parola chiave params](https://requests.readthedocs.io/en/latest/user/quickstart/#passing-parameters-in-urls) della funzione get illustrata nella challange precedente.

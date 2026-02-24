@@ -1,0 +1,5 @@
+# Web 05 - HTTP: cookie manuale
+
+Tra le informazioni scambiate tra client e server tramite gli header HTTP ci sono dei piccoli pezzetti di informazione detti cookie. A differenza di header non-standard, i cookie sono concepiti appositamente dallo standard HTTP per contenere dati arbitrari utili al funzionamento di siti e servizi web e sono comunemente utilizzati come parte di meccanismi di autenticazione aggiuntivi rispetto a quelli offerti dallo standard.
+
+In maniera simile alla challenge numero 3, l'obiettivo è ottenere la risorsa http://web-05.challs.olicyber.it/flag fornendo la stringa admin in un cookie di nome password. Si consiglia di utilizzare il parametro [cookies](https://requests.readthedocs.io/en/latest/user/quickstart/#cookies) della funzione get utilizzata fino a questo momento.

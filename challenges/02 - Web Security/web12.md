@@ -1,0 +1,7 @@
+# Web 12 - Tecnologie web: estrarre semplici contenuti da una pagina web
+
+L'utilizzo primario di HTTP rimane trasportare documenti ipertestuali comunemente noti come pagine web. Questi documenti sono descritti tramite il linguaggio di markup HTML e possono avere una struttura abbastanza complessa. Fortunatamente sono disponibili numerose librerie utilizzabili per l'estrazione dei dati in essi contenuti che eliminano la difficoltà di dover interpretare un formato di tale complessità.
+
+Gli ipertesti sono fondamentalmente documenti di testo, porzioni del quale sono delimitate da coppie di identificatori, detti tag, che ne specificano la funzione all'interno della pagina. Ad esempio, un paragrafo sarà delimitato da una coppia <p> ... </p>, un link da <a> ... </a> e così via. Questi tag possono contenere anche informazioni aggiuntive, dette attributi, che definiscono caratteristiche del testo delimitato (ad esempio, la destinazione di un link viene specificata nell'attributo href Hypertext REFerence del tag <a>)
+
+In questa challenge la flag è contenuta nel secondo paragrafo della pagina web accessibile all'URL http://web-12.challs.olicyber.it/. Si consiglia di scaricare la pagina come una normale risorsa tramite la funzione get della libreria requests, e il metodo [find_all](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-the-tree) della libreria BeautifulSoup per ottenere l'elenco dei paragrafi in essa contenuti.
