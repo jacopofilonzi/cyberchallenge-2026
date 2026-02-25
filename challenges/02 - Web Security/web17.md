@@ -7,5 +7,8 @@ Per informazioni generali sull'argomento e sulle challenge, ti consigliamo di co
 Per iniziare la challenge visita la pagina http://web-17.challs.olicyber.it/logic
 
 
-SOLUZIONE:
-`' OR 1=1 -- `
+## SOLUZIONE
+
+```
+' OR 1=1 -- 
+```
