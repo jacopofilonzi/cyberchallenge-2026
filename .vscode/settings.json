@@ -4,5 +4,6 @@
   "explorer.fileNesting.patterns": {
     "nw-intro*.md": "nw-intro$(capture).*",
     "web*.md": "web$(capture)*",
+    "cy*.md": "cy$(capture)*",
   }
 }
