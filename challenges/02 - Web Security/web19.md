@@ -2,4 +2,4 @@
 
 Per il terzo livello visita la pagina http://web-17.challs.olicyber.it/blind
 
-Per informazioni generali sull'argomento consultare l'introduzione
+Per informazioni generali sull'argomento consultare l'[introduzione](http://web-17.challs.olicyber.it/)
